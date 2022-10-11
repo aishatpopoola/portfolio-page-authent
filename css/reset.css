@@ -1,1 +1,26 @@
 /* Base styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.width-full {
+    width: 100%;
+  }
+  
+  .h-full {
+    height: 100%;
+  }
+
+  .width-half {
+    width: 50%;
+  }
+  
+  .h-half {
+    height: 50%;
+  }
+
+  .basis-half {
+      flex-basis: 50%;
+  }
