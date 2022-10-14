@@ -356,8 +356,12 @@
   padding: 13px 70px;
 }
 
-.form-inputs {
+.form-inputs,
+.form-inputs-msg {
   padding: 16px;
+  width: 288px;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
 }
 
 .form-text {
@@ -365,6 +369,13 @@
   letter-spacing: -0.01rem;
   margin-right: 16px;
 }
+
+.form-name,
+.form-email {
+  margin-bottom: 8px;
+}
+
+/* footer */
 
 .footer {
   background: #1a2236;
