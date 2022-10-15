@@ -39,3 +39,19 @@ li {
 .mr-10 {
   margin-right: 10px;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.j-space-between {
+  justify-content: space-between;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.bg-yellow {
+  background: #fec25a;
+}

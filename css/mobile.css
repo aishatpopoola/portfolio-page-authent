@@ -2,17 +2,13 @@
 
 .menu {
   margin-top: 10px;
-  margin-right: 10px;
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 50px;
 }
 
 .polygons {
-  display: flex;
   position: relative;
 }
 
@@ -23,7 +19,6 @@
 }
 
 .polygon {
-  background-color: #fec25a;
   clip-path: polygon(0% 0%, 100% 0, 50% 50%, 0 100%, 0% 100%);
 }
 
@@ -73,13 +68,11 @@
 }
 
 .box-design-section {
-  display: flex;
   margin-top: 30px;
 }
 
 .first-box,
 .second-box {
-  display: flex;
   flex-wrap: wrap;
   max-width: 50%;
   width: 100%;
@@ -96,7 +89,6 @@
 }
 
 .rhombus-1 {
-  background-color: #fec25a;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
@@ -109,8 +101,6 @@
 
 .rhombus-1,
 .square-box-2 {
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -131,7 +121,6 @@
   width: 76px;
   height: 76px;
   background: linear-gradient(to top right, #ffff 50%, #98dede 51%);
-  display: flex;
   align-items: flex-end;
 }
 
@@ -162,13 +151,10 @@
 
 .semicircle,
 .semicircle-3 {
-  background-color: #fec25a;
   width: 76px;
   height: 76px;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -181,10 +167,6 @@
 .semicircle-2 {
   flex-basis: 50%;
   height: 100%;
-}
-
-.semicircle-2 div {
-  background-color: #fec25a;
 }
 
 .first-semi-circle {
@@ -230,8 +212,6 @@
 }
 
 .skills {
-  display: flex;
-  justify-content: space-between;
   margin-top: 16px;
 }
 
@@ -304,14 +284,16 @@
 
 .about-cards-1 {
   background: #1c528a;
+  position: relative;
 }
 
 .about-cards-2 {
   background: #e35461;
+  position: relative;
 }
 
 .about-cards-3 {
-  background: #fec25a;
+  position: relative;
 }
 
 .about-card-tech-list {
@@ -324,16 +306,21 @@
 }
 
 .hashtag {
-  margin-left: 138px;
-  margin-bottom: 0;
+  position: absolute;
+  right: 0;
+  bottom: -7px;
 }
 
 .rectangle-triangle {
-  margin-left: 144px;
+  position: absolute;
+  right: 0;
+  bottom: -7px;
 }
 
 .bulb {
-  margin-left: 138px;
+  position: absolute;
+  right: 0;
+  bottom: -7px;
 }
 
 /* form */
@@ -380,11 +367,6 @@
 .footer {
   background: #1a2236;
   padding: 40px 15px;
-}
-
-.social-icons-list {
-  display: flex;
-  justify-content: space-between;
 }
 
 .resume-link {
