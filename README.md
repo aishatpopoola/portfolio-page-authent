@@ -1,20 +1,32 @@
-# Project Name
+# My portfolio page
 
-> One paragraph statement about the project.
+> The aim of this project is to build a portfolio page for my self to show a summary about me, my work, experience and some of my projects...
 
 ![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
+## Features
+
+- Summary section about me
+- A link to my online resume
+- A section to my projects
+- An overview of my experience so far
+- A contact-us section where i can be reached out to... It's features a live contact-form
+- A sections with an overview of my skills
+
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Html
+- Css
+  -flexbox
+  -media queries
+  -clip path
+-
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[aisha-popoola.netlify.app](https://aisha-popoola.netlify.app/)
 
 ### Development (Running locally)
 
@@ -70,9 +82,9 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@author](https://github.com/aishatpopoola)
+- Twitter: [@author](https://twitter./PopoolaAishat)
+- Linkedin: [@author](https://www.linkedin.com/in/aishat-popoola/)
 
 ## 🤝 Contributing
 

@@ -1,1 +1,58 @@
 /* Base styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+* {
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.width-full {
+  width: 100%;
+}
+  
+.h-full {
+  height: 100%;
+}
+
+.width-half {
+  width: 50%;
+}
+  
+.h-half {
+  height: 50%;
+}
+
+.basis-half {
+  flex-basis: 50%;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.j-space-between {
+  justify-content: space-between;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.bg-yellow {
+  background: #fec25a;
+}

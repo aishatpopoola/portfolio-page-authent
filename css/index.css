@@ -1,3 +1,5 @@
 /* Example of @import use
 This imports the `reset.css` file */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Oswald&family=Poppins:wght@100&display=swap');
 @import './reset.css';
+@import './mobile.css';
