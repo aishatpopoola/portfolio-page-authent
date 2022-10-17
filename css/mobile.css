@@ -76,6 +76,7 @@
   flex-wrap: wrap;
   max-width: 50%;
   width: 100%;
+  min-width: 160px;
 }
 
 .square-box,
