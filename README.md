@@ -1,6 +1,7 @@
-# Portfolio-page-authent
+# My portfolio page
 
-> This project shows details about me, skills acquired,project done and how to contact me.
+> The aim of this project is to build a portfolio page for my self to show a summary about me, my work, experience and some of my projects...
+
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,22 +9,26 @@ Additional description about the project and its features.
 
 ## Features
 
-- Contact us Can send real time emails through contact form
-- Includes Modals built with HTM-CSS
-- Navbar Toggler
+- Summary section about me
+- A link to my online resume
+- A section to my projects
+- An overview of my experience so far
+- A contact-us section where i can be reached out to... It's features a live contact-form
+- A sections with an overview of my skills
+
 
 ## Built With
 
 - Html
 - Css
   -flexbox
-  \_media queries
+  -media queries
   -clip path
 -
 
 ## Live Demo
 
-[Live Demo Link](http://127.0.0.1:5500)
+[aisha-popoola.netlify.app](https://aisha-popoola.netlify.app/)
 
 ### Development (Running locally)
 
