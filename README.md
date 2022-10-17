@@ -1,20 +1,29 @@
-# Project Name
+# Portfolio-page-authent
 
-> One paragraph statement about the project.
+> This project shows details about me, skills acquired,project done and how to contact me.
 
 ![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
+## Features
+
+- Contact us Can send real time emails through contact form
+- Includes Modals built with HTM-CSS
+- Navbar Toggler
+
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Html
+- Css
+  -flexbox
+  \_media queries
+  -clip path
+-
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](http://127.0.0.1:5500)
 
 ### Development (Running locally)
 
@@ -70,9 +79,9 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@author](https://github.com/aishatpopoola)
+- Twitter: [@author](https://twitter./PopoolaAishat)
+- Linkedin: [@author](https://www.linkedin.com/in/aishat-popoola/)
 
 ## 🤝 Contributing
 
