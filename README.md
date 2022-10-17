@@ -2,7 +2,6 @@
 
 > The aim of this project is to build a portfolio page for my self to show a summary about me, my work, experience and some of my projects...
 
-
 ![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
@@ -15,7 +14,6 @@ Additional description about the project and its features.
 - An overview of my experience so far
 - A contact-us section where i can be reached out to... It's features a live contact-form
 - A sections with an overview of my skills
-
 
 ## Built With
 
