@@ -305,18 +305,8 @@
   list-style-position: inside;
 }
 
-.hashtag {
-  position: absolute;
-  right: 0;
-  bottom: -7px;
-}
-
-.rectangle-triangle {
-  position: absolute;
-  right: 0;
-  bottom: -7px;
-}
-
+.hashtag,
+.rectangle-triangle,
 .bulb {
   position: absolute;
   right: 0;
