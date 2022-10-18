@@ -477,7 +477,10 @@
                 type="text"
                 id="name"
                 name="name"
+                maxlength="30"
+                minlength="2"
                 placeholder="your name"
+                required
                 class="form-inputs"
               />
             </div>
@@ -487,6 +490,7 @@
                 type="email"
                 id="email"
                 name="email"
+                required
                 placeholder="your email"
                 style="border: 1px solid #1a2236;"
                 class="form-inputs"
@@ -499,6 +503,9 @@
                 name="message"
                 class="form-inputs-msg"
                 placeholder="enter your message here...."
+                required
+                maxlength="500"
+                minlength="2"
                 rows="5"
                 cols="30"
               ></textarea>

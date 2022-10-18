@@ -341,6 +341,7 @@
   padding: 16px;
   width: 288px;
   border: 1px solid #dfdfe0;
+  resize: none;
   border-radius: 4px;
 }
 
