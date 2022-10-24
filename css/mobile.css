@@ -316,7 +316,7 @@
   bottom: -7px;
 }
 
-/* form */
+/* footer */
 .form-section {
   margin-top: 52px;
   color: #f9f9fa;
@@ -334,6 +334,17 @@
 .form-btn {
   margin: 10px 0;
   padding: 13px 70px;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  margin: 11px 0;
+  background: #020b22;
+}
+
+.form-btn:focus {
+  outline: none;
+  opacity: 0.5;
 }
 
 .form-inputs,
@@ -355,8 +366,6 @@
 .form-email {
   margin-bottom: 8px;
 }
-
-/* footer */
 
 .footer-2 {
   background: #1a2236;
