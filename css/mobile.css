@@ -355,6 +355,14 @@
   border-radius: 4px;
 }
 
+.form-inputs:focus-visible {
+  outline: 1px solid #1a2236;
+}
+
+.form-inputs-msg:focus-visible {
+  outline: 1px solid #1a2236;
+}
+
 .form-text {
   color: #1a2236;
   letter-spacing: -0.01rem;
