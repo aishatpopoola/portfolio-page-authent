@@ -316,7 +316,7 @@
   bottom: -7px;
 }
 
-/* form */
+/* footer */
 .form-section {
   margin-top: 52px;
   color: #f9f9fa;
@@ -334,6 +334,16 @@
 .form-btn {
   margin: 10px 0;
   padding: 13px 70px;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background: #020b22;
+}
+
+.form-btn:focus {
+  outline: none;
+  opacity: 0.5;
 }
 
 .form-inputs,
@@ -341,7 +351,16 @@
   padding: 16px;
   width: 288px;
   border: 1px solid #dfdfe0;
+  resize: none;
   border-radius: 4px;
+}
+
+.form-inputs:focus-visible {
+  outline: 1px solid #1a2236;
+}
+
+.form-inputs-msg:focus-visible {
+  outline: 1px solid #1a2236;
 }
 
 .form-text {
@@ -355,9 +374,7 @@
   margin-bottom: 8px;
 }
 
-/* footer */
-
-.footer {
+.footer-2 {
   background: #1a2236;
   padding: 40px 15px;
 }
