@@ -72,6 +72,10 @@
   flex-wrap: wrap;
 }
 
+.box-design-section-2 {
+  display: none;
+}
+
 .first-box,
 .second-box {
   flex-wrap: wrap;
@@ -393,4 +397,10 @@
 .resume-link .resume-svg {
   margin-left: 20px;
   vertical-align: middle;
+}
+
+/* media queries */
+
+.navbar {
+  display: none;
 }
