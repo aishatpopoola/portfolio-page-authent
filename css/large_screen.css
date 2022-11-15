@@ -49,11 +49,6 @@
 .header-section-1 {
   max-width: 50%;
   width: 100%;
-
-  /* margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 144px;
-  margin-right: 78px; */
 }
 
 .header-section-inner {
@@ -76,6 +71,186 @@
   display: none;
 }
 
-.dots {
+.header-dots {
+  display: block;
   margin-top: 480px;
+}
+
+/* project section */
+
+.project-section-1 {
+  /* display: flex; */
+}
+
+/* .project {
+  margin-left: 120px;
+  margin-bottom: 250px;
+  font-size: 70px;
+  transform: rotate(-90deg);
+} */
+
+/* .project-1 {
+  width: 960px;
+  height: 500px;
+  display: block;
+  background: url(../images/laptop-2.jpeg);
+} */
+
+/* .project-body {
+  height: 300px;
+  margin-top: 200px;
+  padding: 60px;
+  background: rgba(26, 34, 54, 0.95);
+} */
+
+.project-body-3 {
+  /* display: none; */
+}
+
+.project-1 img {
+  display: none;
+}
+
+.project-dots-1 {
+  display: block;
+  margin-top: 0;
+}
+
+.project-body-1-inner h3 {
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.project-body-1-inner ul {
+  padding-right: 350px;
+}
+
+.project-body-1-inner li {
+  font-size: 12px;
+  padding: 8px 15px;
+}
+
+.project-link {
+  margin-top: 50px;
+  background: #ffff;
+}
+
+.project-link a {
+  color: #1a2236;
+}
+
+.project-path {
+  fill: #1a2236;
+}
+
+/* .project-card-img {
+  width: 465px;
+  height: 270px;
+} */
+
+.project-section-2 {
+  /* display: block; */
+  position: relative;
+  margin-top: 80px;
+}
+
+.project-body-1-container {
+  display: none;
+}
+
+.project-dots-2 {
+  margin-left: 455px;
+}
+
+.project-2-designs {
+  display: block;
+}
+
+.project-chat-icon {
+  margin-left: 624px;
+  margin-top: -88px;
+}
+
+.project-semicircle {
+  top: -80px;
+  position: absolute;
+  left: 570px;
+}
+
+/* .project-2-img {
+  height: 170px;
+} */
+
+/* .project-3-img {
+  width: 0;
+  margin-right: 415px;
+  margin-top: -80px;
+} */
+
+.project-polygon-body,
+.project-polygon {
+  width: 178px;
+  height: 178px;
+}
+
+.project-polygon-body {
+  background: #ffd4c4;
+  margin-top: -183px;
+  margin-left: 712px;
+}
+
+.project-polygon {
+  background-color: #fec35a;
+  border-color: #fec35a;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+/* about */
+
+.about {
+  font-size: 100px;
+}
+
+.about-group {
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+.about-link {
+  width: 240px;
+}
+
+.about-cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  overflow-x: hidden;
+}
+
+.about-card {
+  height: 289px;
+  min-width: 250px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+.about-dots-teal {
+  /* margin: auto; */
+  padding: 80px 0 0 40px;
+  display: block;
+}
+
+.about-teal {
+  width: 55px;
+  height: 55px;
+  margin-left: 100%;
+  background: #83d7d7;
 }
