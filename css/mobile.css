@@ -419,6 +419,14 @@
   padding: 40px 15px;
 }
 
+.footer-3-lg {
+  display: none;
+}
+
+.download-icon {
+  display: none;
+}
+
 .resume-link {
   margin-bottom: 30px;
 }

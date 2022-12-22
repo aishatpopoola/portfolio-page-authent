@@ -388,6 +388,7 @@
 }
 
 .download-icon {
+  display: inline-block;
   margin-left: 15px;
   color: aqua;
   vertical-align: middle;
@@ -409,6 +410,7 @@
 
 .project-header {
   font-size: 100px;
+  font-weight: bold;
 }
 
 .project-container .projects {
