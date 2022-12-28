@@ -67,9 +67,17 @@
   color: #fff;
 }
 
+.collab-btn:hover {
+  background: #212c47;
+}
+
 .box-design-section {
   margin-top: 30px;
   flex-wrap: wrap;
+}
+
+.box-design-section-2 {
+  display: none;
 }
 
 .first-box,
@@ -195,8 +203,28 @@
 
 /* Project */
 
+.header-dots,
+.project-dots-1 {
+  display: none;
+}
+
+.project-1 {
+  /* display: none; */
+}
+
 .project-container {
-  margin-top: 50px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-container .projects {
+  position: relative;
+  margin: 1%;
+  width: 70%;
+  max-width: 400px;
+  min-width: 280px;
 }
 
 .project {
@@ -212,6 +240,10 @@
 .project-body {
   background: #1a2236;
   padding: 15px;
+}
+
+.project-2-designs {
+  /* display: none; */
 }
 
 .skills {
@@ -242,6 +274,10 @@
 
 .project-svg {
   vertical-align: middle;
+}
+
+.project-section-2 {
+  /* display: none; */
 }
 
 /* about */
@@ -308,6 +344,10 @@
   list-style-position: inside;
 }
 
+.about-dots-teal {
+  display: none;
+}
+
 .hashtag,
 .rectangle-triangle,
 .bulb {
@@ -338,7 +378,7 @@
 }
 
 .form-btn:hover {
-  background: #020b22;
+  background: #212c47;
 }
 
 .form-btn:focus {
@@ -379,6 +419,14 @@
   padding: 40px 15px;
 }
 
+.footer-3-lg {
+  display: none;
+}
+
+.download-icon {
+  display: none;
+}
+
 .resume-link {
   margin-bottom: 30px;
 }
@@ -393,4 +441,10 @@
 .resume-link .resume-svg {
   margin-left: 20px;
   vertical-align: middle;
+}
+
+/* media queries */
+
+.navbar {
+  display: none;
 }
